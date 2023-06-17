@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Database on Tenman 技術部落格</title>
+    <link>https://tenmanho.github.io/categories/database/</link>
+    <description>Recent content in Database on Tenman 技術部落格</description>
+    <image>
+      <title>Tenman 技術部落格</title>
+      <url>https://tenmanho.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://tenmanho.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 17 Jun 2023 15:09:27 +0800</lastBuildDate><atom:link href="https://tenmanho.github.io/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL vs NoSQL</title>
+      <link>https://tenmanho.github.io/posts/sql-nosql/</link>
+      <pubDate>Sat, 17 Jun 2023 15:09:27 +0800</pubDate>
+      
+      <guid>https://tenmanho.github.io/posts/sql-nosql/</guid>
+      <description>什麼是 SQL (RDBMS) 關聯式資料庫是將資料間的關係以資料庫表的形式加以表達，並將資料儲存在表格中，以便於查詢 SQL 特性 Atomicity（原子性）：交易是不可分割的完整個體，它不是全部執行，就是全部不執行 Consistency（一致性）：在事務開始之前和事務結束以後，資料庫的完整性沒有被破壞 Isolation（隔離性）：資料庫允許多個並發事務同時對其數據進行讀寫和修改的能力，隔離性可以防止多個事務並發執行時由於交叉執行而導致數據的不一致。 Durability（持久性）：事務處理結束後，對數據的修改就是永久的，即便系統故障也不會丟失。 RDBMS 不適用的情境 需要儲存大量資料 資料結構經常變動 分散式且需要高可用性 需要橫向擴充 什麼是 NoSQL NOSQL (Not Only SQL) 是對不同於傳統的 關聯式資料庫的資料庫管理系統的統稱 NoSQL 特性 Basically Available (基本可用)：NoSQL允許分布式系統中某些部分出現故障，那麼系統的其餘部分依然可用 Soft State(軟狀態)：NoSQL在數據處理過程中，允許這個過程存在數據狀態暫時不一致的情況 Eventually Consistent(最终一致性)：NoSQL的軟狀態允許數據處理過程的暫時不一致，但是最終處理結果將是一致的 NoSQL 不適用的情境 需要 ACID 的情境 需要複雜查詢 資料需要高度結構化 SQL vs NoSQL 關聯式資料庫和NoSQL資料庫各有優缺點，彼此無法取代 • 關聯式資料庫應用場域：電信、銀行等領域的關鍵任務，需要保 證強交易一致性 • NoSQL資料庫應用場域：互聯網企業、傳統企業的非關鍵任務 ( 例如：資料分析) • SQL NoSQL 可混合應用，例如電子商務
+CAP 定理 一致性（Consistency） 所有節點在同一時間具有相同的數據 可用性 （Availability）保證每個請求不管成功或者失敗都有回應 分區容錯性 （Partition tolerance）系統中任意訊息的遺失或失敗不會影響系統的繼續運作 SQL and NoSQL Scalability </description>
+    </item>
+    
+  </channel>
+</rss>
